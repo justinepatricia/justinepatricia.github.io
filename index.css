@@ -28,6 +28,7 @@ p{
 
 /*Navbar*/
 .navbar {
+    text-decoration: none;
     display: flex;
     background-color: white;
     font-size: 2rem;
@@ -35,23 +36,19 @@ p{
 }
 
 .menu {
+    text-decoration: none;
     justify-content: space-around;
     color: black;
     font-family: 'Amatic SC', cursive;
-}
-
-a {
-    color: black;
-    padding: 6rem;
-    text-decoration: none;
 }
 
 .box{
     position: relative;
     width: 500px;
     height: 100px;
-    left: 50%;
-    right: 50%;
+    margin-top: 15px;
+    left: 30%;
+    right: 50%; 
     font-family: 'Architects Daughter', cursive;
     font-size: 20px;
     text-align: center;
